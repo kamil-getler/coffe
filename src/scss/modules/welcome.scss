@@ -1,0 +1,33 @@
+.welcome {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 60vh;
+    background: url(https://cdn.pixabay.com/photo/2020/02/01/15/28/coffe-shop-4810584_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome__info {
+    //position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    background: rgba(116, 63, 63, 0);
+    text-align: left;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 6.25rem;
+    line-height: 1;
+    @media (max-width: 620px) {
+        font-size: 4.25rem;
+    }
+    &--name {
+        position: absolute;
+        bottom: 0.1em;
+        right: 1em;
+        //width: 50px;
+        align-items: right;
+        font-size: 3em;
+        font-family: 'Shadows Into Light', cursive;
+    }
+}
